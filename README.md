@@ -25,6 +25,16 @@
 ## Description
 This is a repository to explore how to create a secure and effective authentication system using three different strategies: local, JWT access tokens, and refresh tokens with nest.js
 
+## Technologies
+- nest.js
+- typescript
+- docker
+- PostgreSQL
+- TypeORM
+  
+## 🔐 Setup .env file
+jwt_secret
+
 ## :running: Run Locally
 
 Clone the project
@@ -39,6 +49,8 @@ $ yarn install
 ```
 
 ## Docker
+Make sure to have docker installed on your machine
+
 ```bash
 $ sudo docker compose up
 ```
